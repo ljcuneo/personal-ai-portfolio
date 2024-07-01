@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2022",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "allowUnreachableCode": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noUncheckedIndexedAccess": false,
+    "plugins": [
+      {
+        "name": "next"
+      },
+      // {
+      //   "name": "@0no-co/graphqlsp",
+      //   "schema": "./schema.graphql",
+      //   "disableTypegen": true,
+      //   "templateIsCallExpression": true,
+      //   "template": "graphql"
+      // }
+    ],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@ui/*": ["./src/components/*"],
+      "@checkout/*": ["./src/checkout/*"],
+      "contentlayer/generated": ["./.contentlayer/generated"]
+    },
+    "types": ["react-dom/canary"]
+  },
+  "include": [
+    "video.d.ts",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/**/*.ts",
+		"src/**/*.tsx",
+    ".next/types/**/*.ts",
+    "*.ts",
+		"__tests__/**/*",
+    "src/app/[lng]/components/Footer/index.tsx",
+    "src/lib/graphql/mutations.ts",
+    "src/utils/parameterize.js",
+    ".contentlayer/generated"
+  ],
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
+}
