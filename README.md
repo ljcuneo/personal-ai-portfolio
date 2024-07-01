@@ -1,4 +1,3 @@
-# personal-ai-portfolio
 # Next.js LangChain.js Portfolio Website Chatbot
 
 * Welcome to my Portfolio!
