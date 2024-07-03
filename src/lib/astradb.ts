@@ -29,10 +29,6 @@ export async function getVectorStore() {
   );
 }
 
-// export async function getEmbeddingsCollection() {
-//   return new AstraDB(token, endpoint).collection(collection);
-// }
-
 export async function getEmbeddingsCollection() {
   const db = new AstraDB(token, endpoint);
   console.log('astradb_db', db);

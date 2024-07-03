@@ -16,7 +16,7 @@ export default function Home() {
         <div className="space-y-3">
           <H1 className="text-center sm:text-start">Hi, I&apos;m Luciano 👋</H1>
           <p className="text-center sm:text-start">
-            I&apos;m a full-stack developer from Miami with a passion for creating innovative and impactful projects.
+            I&apos;m a UI developer from Miami with a passion for creating innovative and impactful projects.
           </p>
         </div>
         <div className="flex justify-center">
@@ -33,9 +33,9 @@ export default function Home() {
         <H2>Ask the chatbot anything about me</H2>
         <p>
           Click the little <Bot className="inline pb-1" /> icon in the top bar
-          to activate the AI chat. you can ask the chatbot any questions about
-          me and it will find the relevant infor on this website. The bot can
-          eveb provide links to pages you&apos;re looking for
+          to activate the AI chat. You can ask the chatbot any questions about
+          me and it will find the relevant information on this website. The bot can
+          even provide links to pages you&apos;re looking for.
         </p>
       </section>
     </section>
