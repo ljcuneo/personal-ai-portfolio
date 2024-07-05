@@ -116,7 +116,7 @@ export default function Page() {
         </ul>
         <p>
           <strong>
-            Multimedia Design Engineer, Cuneoism Productions (04/2016 - Present)
+            Multimedia Design Engineer, Cuneoism Productions (04/2016 - 12/2023)
           </strong>
         </p>
         <ul className="list-inside list-disc space-y-1">

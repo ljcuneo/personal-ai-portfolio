@@ -38,7 +38,6 @@
       "@checkout/*": ["./src/checkout/*"],
       "contentlayer/generated": ["./.contentlayer/generated"]
     },
-    "types": ["react-dom/canary"]
   },
   "include": [
     "video.d.ts",
