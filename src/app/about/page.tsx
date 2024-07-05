@@ -2,12 +2,12 @@ import { H1 } from "@/components/ui/H1";
 import { H2 } from "@/components/ui/H2";
 import { Metadata } from "next";
 import Image from "next/image";
-import Drone1 from "@/assets/Drone1.jpg";
-import Drone2 from "@/assets/Drone2.jpg";
-import Drone3 from "@/assets/Drone3.jpg";
-import Drone4 from "@/assets/Drone4.jpg";
-import Drone5 from "@/assets/Drone5.jpg";
-import mountainImg from "@/assets/SequoiaMountain.jpg";
+import Drone1 from "../../assets/Drone1.jpg";
+import Drone2 from "../../assets/Drone2.jpg";
+import Drone3 from "../../assets/Drone3.jpg";
+import Drone4 from "../../assets/Drone4.jpg";
+import Drone5 from "../../assets/Drone5.jpg";
+import mountainImg from "../../assets/SequoiaMountain.jpg";
 
 export const metadata: Metadata = {
   title: "About Me",

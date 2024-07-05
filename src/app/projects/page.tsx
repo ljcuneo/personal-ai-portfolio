@@ -2,16 +2,16 @@ import { H2 } from "@/components/ui/H2";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import GMEnergy1 from "@/assets/GMEnergy1.png";
-import GMEnergy2 from "@/assets/GMEnergy2.png";
-import DewiCats1 from "@/assets/DC-1.png";
-import DewiCats2 from "@/assets/DC-2.png";
-import DewiCats3 from "@/assets/DC-3.png";
-import DewiCats4 from "@/assets/DC-4.png";
-import Cadillac1 from "@/assets/Cadillac1.png";
-import Cadillac2 from "@/assets/Cadillac2.png";
-import Cadillac3 from "@/assets/Cadillac3.png";
-import Cadillac4 from "@/assets/Cadillac4.png";
+import GMEnergy1 from "../../assets/GMEnergy1.png";
+import GMEnergy2 from "../../assets/GmEnergy2.png";
+import DewiCats1 from "../../assets/DC-1.png";
+import DewiCats2 from "../../assets/DC-2.png";
+import DewiCats3 from "../../assets/DC-3.png";
+import DewiCats4 from "../../assets/DC-4.png";
+import Cadillac1 from "../../assets/Cadillac1.png";
+import Cadillac2 from "../../assets/Cadillac2.png";
+import Cadillac3 from "../../assets/Cadillac3.png";
+import Cadillac4 from "../../assets/Cadillac4.png";
 
 export const metadata: Metadata = {
   title: "About Me",
