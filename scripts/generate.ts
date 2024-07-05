@@ -1,4 +1,4 @@
-import { getVectorStore } from "@/lib/astradb";
+import { getVectorStore } from "../src/lib/astradb";
 import { AIMessage, HumanMessage } from "@langchain/core/messages";
 import {
   ChatPromptTemplate,
