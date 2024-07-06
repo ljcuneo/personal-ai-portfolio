@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@datastax/astra-db-ts": "^0.1.4",
-    "@langchain/openai": "^0.0.13",
     "@langchain/community": "0.0.47",
+    "@langchain/openai": "^0.0.13",
     "@upstash/redis": "^1.28.2",
     "ai": "^2.2.32",
     "clsx": "^2.1.0",
@@ -33,6 +33,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "daisyui": "^4.12.10",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
     "eslint-config-prettier": "^9.1.0",
